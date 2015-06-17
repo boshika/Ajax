@@ -15,6 +15,7 @@ $(document).ready(function() {
       tags: animal,
       format: "json"
     };
+    
     function displayPhotos(data) {
 
       var photoHTML = '<ul>';
@@ -33,3 +34,5 @@ $(document).ready(function() {
   }); // end click
 
 }); // end ready
+
+				
